@@ -1,0 +1,7 @@
+def FACTORIAL(num):
+	if num == 1:
+		return 1
+	else:
+		return num*FACTORIAL(num-1)
+numero1 = int(input("Número:"))
+print("El factorial es:",FACTORIAL(numero1))
